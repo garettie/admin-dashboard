@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+img {
+  max-width: 30px;
+}
+
+svg {
+  max-width: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-rows: 1fr 3fr 4fr;
+  justify-content: flex-start;
+  color: white;
+  background-color: #dc8a78;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.sidebar svg {
+  fill: white;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+}
+
+.logo svg {
+  max-width: 60px;
+}
+
+.navbuttons {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
